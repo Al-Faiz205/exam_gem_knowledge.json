@@ -53,7 +53,7 @@
         "date": "2025-10-29",
         "main_topic": "Digital Documentation (LibreOffice Writer)",
         "exam_pattern": [
-          { "type": "Choose appropriate", "marks": 10,: "Page 104/124" },
+          { "type": "Choose appropriate", "marks": 10,: { "Page 104/124" },
           { "type": "Shortcut keys", "marks": 10 },
           { "type": "Define following components", "marks": 10 },
           { "type": "Answer briefly", "marks": 15 },
