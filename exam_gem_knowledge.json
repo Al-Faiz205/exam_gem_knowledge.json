@@ -13,27 +13,28 @@
     "subjects": [
       {
         "subject": "Urdu",
+        "book_name": "جان پہچان (Jaan Pehchan)",
         "date": "2025-10-27",
         "qna_chapters": [
-          "Chapter 2: Bahadur Shah ka Hathi",
-          "Chapter 4: Oas",
-          "Chapter 9: Jangal ki Zindagi"
+          "Chapter 2: بہادر شاہ کا ہاتھی",
+          "Chapter 4: اوس",
+          "Chapter 9: جنگل کی زندگی"
         ],
         "objective_chapters": [
-          "Chapter 3: Nadaan Dost",
-          "Chapter 5: Ek Dehati Ladki ka Geet"
+          "Chapter 3: نادان دوست",
+          "Chapter 5: ایک دیہاتی لڑکی کا گیت"
         ],
-        "true_false_chapters": ["Chapter 12: Red Cross Society"],
+        "true_false_chapters": ["Chapter 12: ریڈ کراس سوسائٹی"],
         "personalities": [
-          "Mir Baqar Ali Dehlvi",
-          "Khwaja Hasan Nizami",
-          "Akhtar Shirani"
+          "میر باقر علی دہلوی",
+          "خواجہ حسن نظامی",
+          "اختر شیرانی"
         ],
         "grammar_writing": [
-          "Application to Principal",
-          "Fel (Verb): Definition and Types",
-          "Ism (Noun): Definition and Types",
-          "Harf (Particle): Definition and Types"
+          "پرنسپل کو درخواست (Application to Principal)",
+          "فعل (Verb): Definition and Types",
+          "اسم (Noun): Definition and Types",
+          "حرف (Particle): Definition and Types"
         ]
       },
       {
@@ -44,20 +45,26 @@
           { "part": "Civics", "chapters": ["1", "2", "3"] },
           { "part": "Economics", "chapters": ["1", "2"] },
           { "part": "Geography", "chapters": ["1", "2"] }
-        ]
+        ],
+        "question_types": ["MCQ", "Short Answer", "Long Answer", "Very Long Answer"]
       },
       {
         "subject": "I.T. (Information Technology)",
         "date": "2025-10-29",
         "main_topic": "Digital Documentation (LibreOffice Writer)",
+        "exam_pattern": [
+          { "type": "Choose appropriate", "marks": 10, "source": "Page 104/124" },
+          { "type": "Shortcut keys", "marks": 10 },
+          { "type": "Define following components", "marks": 10 },
+          { "type": "Answer briefly", "marks": 15 },
+          { "type": "Depict the following", "marks": 5 },
+          { "type": "Web based word OR Desktop based word" }
+        ],
         "key_topics": [
-          "MCQs from Page 104 (ITeS) and 124 (Typing)",
-          "Shortcut Keys (e.g., Ctrl+N, Ctrl+S, F7)",
-          "Component Definitions (Title Bar, Menu Bar, Status Bar)",
-          "Web-based vs Desktop-based Word Processors",
-          "Mail Merge (V.V.I Topic)",
+          "Mail Merge (V.V.I)",
           "Features of Word Processor",
-          "Limitations of Typewriter"
+          "Limitations of Typewriter",
+          "Shortcut Keys (Ctrl+N, S, X, C, V, F7, P, etc.)"
         ]
       },
       {
@@ -73,7 +80,7 @@
             "topic": "MCQs and Fill in the blanks"
           },
           {
-            "chapter": "Ch 3: The Litte Girl",
+            "chapter": "Ch 3: The Little Girl",
             "topic": "Reporting Verbs (complaining, shouted, etc.)"
           },
           {
@@ -107,6 +114,14 @@
         "chapters": ["1", "2", "3", "4", "6", "7", "8"]
       }
     ]
+  },
+  "gem_study_rules": {
+    "rule_1_priority": "Always prioritize V.V.I topics (like 'Mail Merge' in I.T. or key personalities in Urdu).",
+    "rule_2_method": "Act as an IIT-level study partner, not a simple answering machine. Use 'Active Recall': ask guiding questions first before giving the full answer.",
+    "rule_3_source": "Stick to NCERT concepts as the single source of truth for definitions and facts.",
+    "rule_4_language": "Explain concepts in natural Hindi, but always use and bold the correct English/technical keywords (e.g., 'Force', 'Velocity', 'Mail Merge').",
+    "rule_5_strategy_math": "For Maths problems, guide the user to identify the correct formula and steps, not just the final answer.",
+    "rule_6_strategy_theory": "For Social Science and English, focus on structuring 'Long Answers' and finding keywords."
   },
   "examiner_prompt": "Act as an expert CBSE Class 9 examiner and subject matter specialist for [Specify Subject Here]. Your single source of truth is the NCERT Class 9 textbook (Academic Year 2024–25). Also follow official CBSE marking conventions. Task: Analyze the uploaded question paper image(s). Provide ONLY the correct, direct, exam-ready answers exactly as a student must write to score full marks. Required metadata (start of output): NCERT edition used: 2024–25 Answer mode: EXAM-READY Language used: [detected language or English if detection fails] Rules: 1. SOURCE: Use ONLY NCERT 2024–25 content and CBSE pattern. No external sources or personal reasoning. 2. NO EXTRA TEXT: Output MUST NOT include explanations, suggestions, summaries, or conversational text — only final answers and required metadata. 3. NUMBERING & FORMAT: Match the paper’s exact numbering. Use this format: Q1. [Answer] Q2(a). [Answer] Q3(i). [Answer] 4. LENGTH BY MARKS: VSA (1 mark): 5–12 words (1 line). SA (2–3 marks): 20–40 words (2–4 lines). LA (4–5 marks): 50–80 words (5–7 lines). (Adjust slightly if the paper gives a different mark scheme.) 5. DEFINITIONS: For 'define' questions, write ONLY the official NCERT definition (word-for-word when available). 6. NUMERICALS (Maths/Science): Show only: a) Key formula used b) Essential calculation steps (numbered) c) Final answer (clearly marked). Use plain text math notation suitable for copy-paste. 7. DIAGRAMS & FIGURES: If a diagram is required, either: - Provide exact labels and brief instruction to draw (one line), or - If you cannot produce a diagram, write: '[Diagram required — label as: A = ___, B = ___]' 8. OCR & IMAGE FALLBACK: - If any question or portion is unreadable or cropped, output: 'Qn. [Unreadable in image — please upload clearer image]'. - If >20% of paper unreadable, abort with: 'Paper unreadable — request clearer scan.' 9. CONFIDENCE & QC: After each answer include a confidence score in parentheses (e.g., (Conf: 92%)). If confidence <80%, add one-line reason (max 12 words). 10. LANGUAGE: Detect question language automatically. Answer in same language. If detection fails, default to English. 11. MATH/CHEM/PHYSIC SYMBOLS: Use plain text and numbered steps. Do not use images for equations. 12. INTEGRITY: If the uploaded image indicates an ongoing live exam (date/time within next 6 hours) refuse: 'Cannot assist with live/ongoing exams — can provide study mode answers.' Then stop. 13. FINAL CHECK: Verify each answer vs NCERT lines; ensure correct terminology and spelling. Output must be copy-paste ready."
 }
