@@ -1,0 +1,112 @@
+{
+  "syllabus_data": {
+    "profile": {
+      "student_class": "IX-B",
+      "school": "Al-Faiz Model Academy, Basmatiya",
+      "exam": "Term-I Examination (2025-26)",
+      "exam_pattern": {
+        "total_marks": 100,
+        "theory": 80,
+        "internal": 20
+      }
+    },
+    "subjects": [
+      {
+        "subject": "Urdu",
+        "date": "2025-10-27",
+        "qna_chapters": [
+          "Chapter 2: Bahadur Shah ka Hathi",
+          "Chapter 4: Oas",
+          "Chapter 9: Jangal ki Zindagi"
+        ],
+        "objective_chapters": [
+          "Chapter 3: Nadaan Dost",
+          "Chapter 5: Ek Dehati Ladki ka Geet"
+        ],
+        "true_false_chapters": ["Chapter 12: Red Cross Society"],
+        "personalities": [
+          "Mir Baqar Ali Dehlvi",
+          "Khwaja Hasan Nizami",
+          "Akhtar Shirani"
+        ],
+        "grammar_writing": [
+          "Application to Principal",
+          "Fel (Verb): Definition and Types",
+          "Ism (Noun): Definition and Types",
+          "Harf (Particle): Definition and Types"
+        ]
+      },
+      {
+        "subject": "Social Science",
+        "date": "2025-10-28",
+        "components": [
+          { "part": "History", "chapters": ["1", "2"] },
+          { "part": "Civics", "chapters": ["1", "2", "3"] },
+          { "part": "Economics", "chapters": ["1", "2"] },
+          { "part": "Geography", "chapters": ["1", "2"] }
+        ]
+      },
+      {
+        "subject": "I.T. (Information Technology)",
+        "date": "2025-10-29",
+        "main_topic": "Digital Documentation (LibreOffice Writer)",
+        "key_topics": [
+          "MCQs from Page 104 (ITeS) and 124 (Typing)",
+          "Shortcut Keys (e.g., Ctrl+N, Ctrl+S, F7)",
+          "Component Definitions (Title Bar, Menu Bar, Status Bar)",
+          "Web-based vs Desktop-based Word Processors",
+          "Mail Merge (V.V.I Topic)",
+          "Features of Word Processor",
+          "Limitations of Typewriter"
+        ]
+      },
+      {
+        "subject": "English",
+        "date": "2025-10-30",
+        "prose_beehive": [
+          {
+            "chapter": "Ch 1: The Fun They Had",
+            "topic": "Adverbs (awfully, sorrowfully, etc.)"
+          },
+          {
+            "chapter": "Ch 2: The Sound of Music",
+            "topic": "MCQs and Fill in the blanks"
+          },
+          {
+            "chapter": "Ch 3: The Litte Girl",
+            "topic": "Reporting Verbs (complaining, shouted, etc.)"
+          },
+          {
+            "chapter": "Ch 4: A Truly Beautiful Mind",
+            "topic": "Text-based Q&A"
+          },
+          {
+            "chapter": "Ch 5: The Snake and the Mirror",
+            "topic": "Comprehension Passage (Page 58-59)"
+          }
+        ],
+        "grammar_writing": [
+          "Tenses",
+          "Passive Voice",
+          "Letter / Application",
+          "Synonyms & Meanings"
+        ]
+      },
+      {
+        "subject": "Science",
+        "date": "2025-11-01",
+        "components": [
+          { "part": "Biology", "chapters": ["1", "2"] },
+          { "part": "Chemistry", "chapters": ["1", "2"] },
+          { "part": "Physics", "chapters": ["1", "2", "3"] }
+        ]
+      },
+      {
+        "subject": "Maths",
+        "date": "2025-11-03",
+        "chapters": ["1", "2", "3", "4", "6", "7", "8"]
+      }
+    ]
+  },
+  "examiner_prompt": "Act as an expert CBSE Class 9 examiner and subject matter specialist for [Specify Subject Here]. Your single source of truth is the NCERT Class 9 textbook (Academic Year 2024–25). Also follow official CBSE marking conventions. Task: Analyze the uploaded question paper image(s). Provide ONLY the correct, direct, exam-ready answers exactly as a student must write to score full marks. Required metadata (start of output): NCERT edition used: 2024–25 Answer mode: EXAM-READY Language used: [detected language or English if detection fails] Rules: 1. SOURCE: Use ONLY NCERT 2024–25 content and CBSE pattern. No external sources or personal reasoning. 2. NO EXTRA TEXT: Output MUST NOT include explanations, suggestions, summaries, or conversational text — only final answers and required metadata. 3. NUMBERING & FORMAT: Match the paper’s exact numbering. Use this format: Q1. [Answer] Q2(a). [Answer] Q3(i). [Answer] 4. LENGTH BY MARKS: VSA (1 mark): 5–12 words (1 line). SA (2–3 marks): 20–40 words (2–4 lines). LA (4–5 marks): 50–80 words (5–7 lines). (Adjust slightly if the paper gives a different mark scheme.) 5. DEFINITIONS: For 'define' questions, write ONLY the official NCERT definition (word-for-word when available). 6. NUMERICALS (Maths/Science): Show only: a) Key formula used b) Essential calculation steps (numbered) c) Final answer (clearly marked). Use plain text math notation suitable for copy-paste. 7. DIAGRAMS & FIGURES: If a diagram is required, either: - Provide exact labels and brief instruction to draw (one line), or - If you cannot produce a diagram, write: '[Diagram required — label as: A = ___, B = ___]' 8. OCR & IMAGE FALLBACK: - If any question or portion is unreadable or cropped, output: 'Qn. [Unreadable in image — please upload clearer image]'. - If >20% of paper unreadable, abort with: 'Paper unreadable — request clearer scan.' 9. CONFIDENCE & QC: After each answer include a confidence score in parentheses (e.g., (Conf: 92%)). If confidence <80%, add one-line reason (max 12 words). 10. LANGUAGE: Detect question language automatically. Answer in same language. If detection fails, default to English. 11. MATH/CHEM/PHYSIC SYMBOLS: Use plain text and numbered steps. Do not use images for equations. 12. INTEGRITY: If the uploaded image indicates an ongoing live exam (date/time within next 6 hours) refuse: 'Cannot assist with live/ongoing exams — can provide study mode answers.' Then stop. 13. FINAL CHECK: Verify each answer vs NCERT lines; ensure correct terminology and spelling. Output must be copy-paste ready."
+}
