@@ -1,127 +1,102 @@
 {
+  "student_profile": {
+    "name": "Tosif Alam",
+    "class_section": "IX-B",
+    "school": "Al-Faiz Model Academy, Basmatiya",
+    "exam": "Term-II Examination 2025-26",
+    "goal": "Maximum marks using 80/20 Rule and High-Probability (V.V.I) targeting."
+  },
   "syllabus_data": {
-    "profile": {
-      "student_class": "IX-B",
-      "school": "Al-Faiz Model Academy",
-      "exam": "Term-I Examination (2025-26)",
-      "exam_pattern": {
-        "total_marks": 100,
-        "theory": 80,
-        "internal": 20
-      }
+    "Science": {
+      "exam_date": "03-03-2026",
+      "paper_pattern": "Physics: MCQ (3x1=3), A&R (2x1=2), Shorts (2x4=8), Longs (3x4=12). Total 25 Marks.",
+      "physics_vvi": [
+        "Motions: Derivations (S = ut + 1/2at^2, 2as = v^2 - u^2)",
+        "Work and Energy: Kinetic Energy (KE = 1/2mv^2)",
+        "Sound: Characteristics, Echo conditions, Reverberation, Difference b/w Echo and Reverberation"
+      ],
+      "chemistry_vvi": [
+        "Chapter 3: Atoms and molecules",
+        "Chapter 4: Structure of atoms"
+      ],
+      "biology_vvi": [
+        "Cells (Ch 05): Plant and Animals Cells, Cell theory, All Cell organelles",
+        "Tissue (Ch 06): Plant and animals tissue, All the types of tissue",
+        "Improvement in food resources"
+      ]
     },
-    "subjects": [
-      {
-        "subject": "Urdu",
-        "book_name": "جان پہچان (Jaan Pehchan)",
-        "date": "2025-10-27",
-        "qna_chapters": [
-          "Chapter 2: بہادر شاہ کا ہاتھی",
-          "Chapter 4: اوس",
-          "Chapter 9: جنگل کی زندگی"
-        ],
-        "objective_chapters": [
-          "Chapter 3: نادان دوست",
-          "Chapter 5: ایک دیہاتی لڑکی کا گیت"
-        ],
-        "true_false_chapters": ["Chapter 12: ریڈ کراس سوسائٹی"],
-        "personalities": [
-          "میر باقر علی دہلوی",
-          "خواجہ حسن نظامی",
-          "اختر شیرانی"
-        ],
-        "grammar_writing": [
-          "پرنسپل کو درخواست (Application to Principal)",
-          "فعل (Verb): Definition and Types",
-          "اسم (Noun): Definition and Types",
-          "حرف (Particle): Definition and Types"
-        ]
-      },
-      {
-        "subject": "Social Science",
-        "date": "2025-10-28",
-        "components": [
-          { "part": "History", "chapters": ["1", "2"] },
-          { "part": "Civics", "chapters": ["1", "2", "3"] },
-          { "part": "Economics", "chapters": ["1", "2"] },
-          { "part": "Geography", "chapters": ["1", "2"] }
-        ],
-        "question_types": ["MCQ", "Short Answer", "Long Answer", "Very Long Answer"]
-      },
-      {
-        "subject": "I.T. (Information Technology)",
-        "date": "2025-10-29",
-        "main_topic": "Digital Documentation (LibreOffice Writer)",
-        "exam_pattern": [
-          { "type": "Choose appropriate", "marks": 10, "source": "Page 104/124" },
-          { "type": "Shortcut keys", "marks": 10 },
-          { "type": "Define following components", "marks": 10 },
-          { "type": "Answer briefly", "marks": 15 },
-          { "type": "Depict the following", "marks": 5 },
-          { "type": "Web based word OR Desktop based word" }
-        ],
-        "key_topics": [
-          "Mail Merge (V.V.I)",
-          "Features of Word Processor",
-          "Limitations of Typewriter",
-          "Shortcut Keys (Ctrl+N, S, X, C, V, F7, P, etc.)"
-        ]
-      },
-      {
-        "subject": "English",
-        "date": "2025-10-30",
-        "prose_beehive": [
-          {
-            "chapter": "Ch 1: The Fun They Had",
-            "topic": "Adverbs (awfully, sorrowfully, etc.)"
-          },
-          {
-            "chapter": "Ch 2: The Sound of Music",
-            "topic": "MCQs and Fill in the blanks"
-          },
-          {
-            "chapter": "Ch 3: The Little Girl",
-            "topic": "Reporting Verbs (complaining, shouted, etc.)"
-          },
-          {
-            "chapter": "Ch 4: A Truly Beautiful Mind",
-            "topic": "Text-based Q&A"
-          },
-          {
-            "chapter": "Ch 5: The Snake and the Mirror",
-            "topic": "Comprehension Passage (Page 58-59)"
-          }
-        ],
-        "grammar_writing": [
-          "Tenses",
-          "Passive Voice",
-          "Letter / Application",
-          "Synonyms & Meanings"
-        ]
-      },
-      {
-        "subject": "Science",
-        "date": "2025-11-01",
-        "components": [
-          { "part": "Biology", "chapters": ["1", "2"] },
-          { "part": "Chemistry", "chapters": ["1", "2"] },
-          { "part": "Physics", "chapters": ["1", "2", "3"] }
-        ]
-      },
-      {
-        "subject": "Maths",
-        "date": "2025-11-03",
-        "chapters": ["1", "2", "3", "4", "6", "7", "8"]
-      }
-    ]
+    "Maths": {
+      "exam_date": "05-03-2026",
+      "vvi_topics": [
+        "Ch 07: Ex-7.1 (Q-5, 6, 7)",
+        "Ch 08: MCQ, Mid-point theorem prove",
+        "Ch 09: Theorems (9.3 and 9.4 VVI), Angles find",
+        "Ch 10: General concepts",
+        "Surface area and volumes: Ex-11.1 (Q 5, 6), Ex-11.2 (Q 6, 7, 8), Ex-11.3 (7, 8), Ex-11.4 (Q 5, 7, 10)",
+        "Statistics: Bar Graph, Histogram"
+      ]
+    },
+    "English": {
+      "exam_date": "06-03-2026",
+      "vvi_topics": [
+        "Passage: Snake & mirror",
+        "Match the following (Ch-05-9) (P-76, 77)",
+        "Word meaning: Childhoods",
+        "Literature: Santosh Yadav (MCQ), Maria Sarapova (Question Ans)",
+        "Grammar: Tense Errors, Change the Tenses, Active and passive, direct -> indirect",
+        "Summary: Childhood, If I were you",
+        "Writing: Application or letter"
+      ]
+    },
+    "Urdu": {
+      "exam_date": "07-03-2026",
+      "vvi_topics": [
+        "Unseen passage: Sub-Questions, Moral, Word meaning, Search (verb, opposite), Long Question",
+        "Gram panchayat: MCQ",
+        "Definition and their types: فعل (Verb), اسم (Noun), الفاظ (Words)",
+        "Defines: شعر (Shair), مصرع (Mishra), تشبیہ (Tashbihi)",
+        "Separate: فعل، اسم اور حرف (Verb, Ism and harf), ردیف اور قافیہ (Radif and Kafiya)",
+        "Grammar: Opposite words, Singular/Plurals, Convert into Sentence (Mullah Nasiruddin)",
+        "Writing: Letter or applications"
+      ]
+    },
+    "Information_Technology_402": {
+      "exam_date": "09-03-2026",
+      "employability_skills": [
+        "7 C's of Communication (Clear, Concise, Concrete, Correct, Coherent, Complete, Courteous)",
+        "Self-Management (Self-Awareness, Stress Management)",
+        "Green Skills: 3R Principle (Reduce, Reuse, Recycle)"
+      ],
+      "subject_specific_skills": [
+        "Digital Documentation (LibreOffice Writer): Styles, Mail Merge, Text Wrapping, Shortcut keys (Ctrl+A, Ctrl+C, Ctrl+V, Ctrl+S)",
+        "Electronic Spreadsheet (LibreOffice Calc): Formula (=), Functions (SUM, AVERAGE, MAX, MIN, COUNT)",
+        "Digital Presentation (LibreOffice Impress): Animation, Slide Transition, F5 to start slideshow"
+      ]
+    },
+    "Social_Science": {
+      "exam_date": "10-03-2026",
+      "history_civics": "History: Ch-03 and 04, Politics: Ch-03 to 05",
+      "economics": [
+        "Ch 03 & 04",
+        "What is PDS?",
+        "Buffer Stocks?",
+        "Why food security?",
+        "Describe the majors taken by the Government to reduce poverty in India?",
+        "Mention any two Causes of poverty in India?"
+      ],
+      "geography": [
+        "Himalayan and peninsular rivers",
+        "Western and Eastern Ghats",
+        "Write any two features of Indian monsoon?"
+      ]
+    }
   },
-  "gem_study_rules": {
-    "rule_1_priority": "Always prioritize V.V.I topics (like 'Mail Merge' in I.T. or key personalities in Urdu).",
-    "rule_2_method": "Act as an IIT-level study partner, not a simple answering machine. Use 'Active Recall': ask guiding questions first before giving the full answer.",
-    "rule_3_source": "Stick to NCERT concepts as the single source of truth for definitions and facts.",
-    "rule_4_language": "Explain concepts in natural Hindi, but always use and bold the correct English/technical keywords (e.g., 'Force', 'Velocity', 'Mail Merge').",
-    "rule_5_strategy_math": "For Maths problems, guide the user to identify the correct formula and steps, not just the final answer.",
-    "rule_6_strategy_theory": "For Social Science and English, focus on structuring 'Long Answers' and finding keywords."
-  },
-  "examiner_prompt": "Act as an expert CBSE Class 9 examiner and subject matter specialist for [Specify Subject Here]. Your single source of truth is the NCERT Class 9 textbook (Academic Year 2024–25). Also follow official CBSE marking conventions. Task: Analyze the uploaded question paper image(s). Provide ONLY the correct, direct, exam-ready answers exactly as a student must write to score full marks. Required metadata (start of output): NCERT edition used: 2024–25 Answer mode: EXAM-READY Language used: [detected language or English if detection fails] Rules: 1. SOURCE: Use ONLY NCERT 2024–25 content and CBSE pattern. No external sources or personal reasoning. 2. NO EXTRA TEXT: Output MUST NOT include explanations, suggestions, summaries, or conversational text — only final answers and required metadata. 3. NUMBERING & FORMAT: Match the paper’s exact numbering. Use this format: Q1. [Answer] Q2(a). [Answer] Q3(i). [Answer] 4. LENGTH BY MARKS: VSA (1 mark): 5–12 words (1 line). SA (2–3 marks): 20–40 words (2–4 lines). LA (4–5 marks): 50–80 words (5–7 lines). (Adjust slightly if the paper gives a different mark scheme.) 5. DEFINITIONS: For 'define' questions, write ONLY the official NCERT definition (word-for-word when available). 6. NUMERICALS (Maths/Science): Show only: a) Key formula used b) Essential calculation steps (numbered) c) Final answer (clearly marked). Use plain text math notation suitable for copy-paste. 7. DIAGRAMS & FIGURES: If a diagram is required, either: - Provide exact labels and brief instruction to draw (one line), or - If you cannot produce a diagram, write: '[Diagram required — label as: A = ___, B = ___]' 8. OCR & IMAGE FALLBACK: - If any question or portion is unreadable or cropped, output: 'Qn. [Unreadable in image — please upload clearer image]'. - If >20% of paper unreadable, abort with: 'Paper unreadable — request clearer scan.' 9. CONFIDENCE & QC: After each answer include a confidence score in parentheses (e.g., (Conf: 92%)). If confidence <80%, add one-line reason (max 12 words). 10. LANGUAGE: Detect question language automatically. Answer in same language. If detection fails, default to English. 11. MATH/CHEM/PHYSIC SYMBOLS: Use plain text and numbered steps. Do not use images for equations. 12. INTEGRITY: If the uploaded image indicates an ongoing live exam (date/time within next 6 hours) refuse: 'Cannot assist with live/ongoing exams — can provide study mode answers.' Then stop. 13. FINAL CHECK: Verify each answer vs NCERT lines; ensure correct terminology and spelling. Output must be copy-paste ready."
+  "examiner_prompt": [
+    "RULE 1: STRICT NCERT ALIGNMENT. Your answers must exactly match CBSE Class 9 NCERT curriculum standards.",
+    "RULE 2: NO FLUFF. Output ONLY the answer. Do not include introductory or concluding conversational text.",
+    "RULE 3: MATHEMATICS & PHYSICS FORMAT. Always use this vertical structure for numericals: 'Given:' -> 'Formula:' -> 'Calculation:' -> 'Answer:'.",
+    "RULE 4: TABULAR COMPARISONS. Any question asking to 'differentiate', 'distinguish', 'compare', or 'match' MUST be answered using a Markdown table.",
+    "RULE 5: URDU NASTALIQ. When generating Urdu text, ensure it utilizes the standard Nastaliq character set logic.",
+    "RULE 6: EXAM READY PREFIX. Always begin the solution with 'Answer:' or 'Ans.' (Use 'جواب:' for Urdu)."
+  ]
 }
